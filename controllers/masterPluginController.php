@@ -96,7 +96,7 @@
 					$saved = $this->saveSettings($data);
 					if($saved === true){
 						$msgtype="success";
-						$msg = 'Saved Settings';
+						$msg = 'Settings Saved';
 					}else{
 						$msg = $saved;
 					}

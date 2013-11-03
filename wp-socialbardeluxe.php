@@ -2,8 +2,8 @@
 /* 
 Plugin Name: Social Bar Deluxe
 Plugin URI: http://gorillafart.net/wp-socialbardeluxe/
-Description: A floating toolbar plugin that allows your visitors to connect to your social networks in a fast, secure and instant. Make Follow on Twitter and Pinterest, Like on your Facebook page, add your Google+ profile to your circles, all in a single tool. SocialBarDeluxe lets you choose your preferred language (English and Spanish), validate a URL, minimize or close the bar, enable or disable social networks with just one click.
-Version: 1.0
+Description: A floating bar plugin that allows your visitors connect them to your social networks in a fast, secure and instant way. Make Follow on Twitter or Pinterest, Like on your Facebook page, add your Google+ profile to their circles, all in one single tool. SocialBarDeluxe lets you choose your preferred language (English and Spanish), validate an URL, minimize or close the bar, enable or disable social networks, with just one click.
+Version: 1.0.0
 Author: Gorilla Fart
 Author URI: http://gorillafart.net/
 License: GPLv2 or later
