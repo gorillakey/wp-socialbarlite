@@ -64,7 +64,7 @@
 	</div>
 
 	<div class="form-group">
-		<label for="BackgroundBar" class="col-sm-3 control-label">Active SideBar</label>
+		<label for="BackgroundBar" class="col-sm-3 control-label">Activate Social Bar</label>
 		<div class="col-sm-7">
 		<div id="active-switch" class="make-switch" data-on="success" data-off="warning">
 		    <input type="checkbox" name="data[<?php echo PLUGIN_NAME_VAR; ?>][active]" <?php if(!empty($data[PLUGIN_NAME_VAR]["active"])){ ?>checked<?php }?> value="1">
