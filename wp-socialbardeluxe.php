@@ -89,6 +89,16 @@ function pro_plugin_display_settings() {
 
 }
 
+function add_ccs(){
+    $option='masterPlugin.showBarCss';
+    loadController($option);
+}
+
+function add_js(){
+    $option='masterPlugin.showBarJs';
+     loadController($option);
+}
+
 function showBar() {
 
          $option='masterPlugin.showBar';
@@ -106,6 +116,8 @@ register_activation_hook(__FILE__, 'pro_plugin_activation');
 register_deactivation_hook(__FILE__, 'pro_plugin_deactivation');
 add_action('admin_menu', 'pro_plugin_settings');
 add_filter('wp_footer', 'showBar');
+add_filter('wp_head', 'add_ccs');
+add_filter('wp_footer', 'add_js');
 
 
 

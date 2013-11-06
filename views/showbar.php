@@ -1,47 +1,6 @@
 <style>
-.floatsocialbar {
-position: fixed;
-bottom: 0px;
-left: 0;
-height: 40px;
-background: <?php echo $data[PLUGIN_NAME_VAR]['background']; ?>;
-width: 100%;
-padding: 5px;
-filter: alpha(opacity=90);
--moz-opacity: 0.9;
--khtml-opacity: 0.9;
-opacity: 0.9;
-z-index: 900;
-}
-
-.contentbar{
-   display: inline-block;
-}
-
-.floatsocialbar .message{
-        color: <?php echo $data[PLUGIN_NAME_VAR]['colortext']; ?>;
-        float: left;
-        margin-top: 4px;
-}
-
-.fsb{
-     	float: left;
-    margin-left: 15px;
-    margin-top: 5px;
-}
-
-.fsb.facebook{
-	width: 120px;
-}
-.fsb.googleplus{
-        margin-top: 0px;
-    margin-left: 10px;
-}
-
-.fsb.pinterest{
-        margin-top: 1px;
-}
-
+.floatsocialbar {background: <?php echo $data[PLUGIN_NAME_VAR]['background']; ?>;}
+.floatsocialbar .message{color: <?php echo $data[PLUGIN_NAME_VAR]['colortext']; ?>;}
 </style>
 
 <div align="center" class="floatsocialbar">
@@ -76,6 +35,10 @@ z-index: 900;
 <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
 </div>
 <?php } ?>
+
+<div class="close-sidebar"> 
+  <a class="image-close-sidebar"></a>
+</div>
 
 </div>
 </div>

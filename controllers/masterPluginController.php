@@ -25,6 +25,15 @@
                 }
          }
 
+        public function showBarCss(){
+        	echo '<link rel="stylesheet" media="screen" type="text/css" href="'.STATIC_URL.'css/sbd-styles.css" />';
+        }
+
+        public function showBarJs(){
+        	echo '<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>';
+        	echo '<script type="text/javascript" src="'.STATIC_URL.'js/sbd-functions.js"></script>';
+        }
+
 		public function validateSettings($data){
 
 			$swvalidate = array('valid' => true, 'msg' => '');
