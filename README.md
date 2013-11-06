@@ -1,4 +1,4 @@
-Wordpress Plugin : Social Bar Deluxe
+Wordpress Plugin : Social Bar Lite
 =====================================
 
 English:
