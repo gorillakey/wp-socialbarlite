@@ -28,18 +28,6 @@ z-index: 900;
     margin-top: 5px;
 }
 
-.fsb.facebook{
-	width: 120px;
-}
-.fsb.googleplus{
-        margin-top: 0px;
-    margin-left: 10px;
-}
-
-.fsb.pinterest{
-        margin-top: 1px;
-}
-
 .close-sidebar{
     position: absolute; right: 15px;
 }

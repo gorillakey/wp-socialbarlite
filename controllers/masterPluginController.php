@@ -4,9 +4,6 @@
 
 
 		var $twitter_validation = "^(http|https):\/\/(www.|)twitter.com\/\w*(\/|)$";
-		var $facebook_validation = "^(http|https):\/\/(www.|)facebook.com\/\w*(\/|)$";
-		var $googleplus_validation ="^(http|https):\/\/(plus.|)google.com\/(.)*$";
-		var $pinterest_validation = "^(http|https):\/\/(www.|)pinterest.com\/\w*(\/|)$";
 
 		/* -------- Constructor ------ */
 
@@ -38,29 +35,7 @@
 
 			$swvalidate = array('valid' => true, 'msg' => '');
 
-			if(!empty($data)){
-
-				if(!empty($data[PLUGIN_NAME_VAR]['url_pinterest'])){
-					if (!preg_match('/'.$this->pinterest_validation.'/', $data[PLUGIN_NAME_VAR]['url_pinterest'])) {
-						$swvalidate['valid'] = false;
-	       				$swvalidate['msg']="Pinterest url is not valid.";
-					}
-	       		}
-
-				if(!empty($data[PLUGIN_NAME_VAR]['url_googleplus'])){
-					if (!preg_match('/'.$this->googleplus_validation.'/', $data[PLUGIN_NAME_VAR]['url_googleplus'])) {
-						$swvalidate['valid'] = false;
-	       				$swvalidate['msg']="Google PLus url is not valid.";
-					}
-	       		}	
-
-
-				if(!empty($data[PLUGIN_NAME_VAR]['url_facebook'])){
-					if (!preg_match('/'.$this->facebook_validation.'/', $data[PLUGIN_NAME_VAR]['url_facebook'])) {
-						$swvalidate['valid'] = false;
-	       				$swvalidate['msg']="Facebook url is not valid.";
-					}
-	       		}				
+			if(!empty($data)){	
 
 				if(!empty($data[PLUGIN_NAME_VAR]['url_twitter'])){
 					if (!preg_match('/'.$this->twitter_validation.'/', $data[PLUGIN_NAME_VAR]['url_twitter'])) {
@@ -95,7 +70,7 @@
 
 		public function init(){
 
-			$title_module = "Social Bar Deluxe Settings";
+			$title_module = "Social Bar Lite Settings";
 			$this->set('title_module',$title_module);
 			$msgtype="danger";
 

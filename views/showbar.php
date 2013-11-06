@@ -14,28 +14,6 @@
 </div>
 <?php } ?>
 
-<?php if($data[PLUGIN_NAME_VAR]['url_facebook']) { ?>
-<div class="fsb facebook">
-<iframe src="//www.facebook.com/plugins/like.php?href=<?php echo urlencode($data[PLUGIN_NAME_VAR]['url_facebook']); ?>&amp;width&amp;height=21&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=142160389133186" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-</div>
-<?php } ?>
-
-<?php if($data[PLUGIN_NAME_VAR]['url_googleplus']) { ?>
-<div class="fsb googleplus">
-<a href="<?php echo $data[PLUGIN_NAME_VAR]['url_googleplus']; ?>"
-   rel="publisher" target="_top" style="text-decoration:none;">
-<img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Google+" style="border:0;width:32px;height:32px;"/>
-</a>
-</div>
-<?php } ?>
-
-<?php if($data[PLUGIN_NAME_VAR]['url_pinterest']) { ?>
-<div class="fsb pinterest">
-<a data-pin-do="buttonFollow" href="<?php echo $data[PLUGIN_NAME_VAR]['url_pinterest']; ?>">Follow</a>
-<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
-</div>
-<?php } ?>
-
 <div class="close-sidebar"> 
   <a class="image-close-sidebar"></a>
 </div>

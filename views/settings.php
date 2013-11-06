@@ -43,27 +43,6 @@
 	</div>
 
 	<div class="form-group">
-		<label for="BackgroundBar" class="col-sm-3 control-label icon-label"><span><img width="32" height="32" src="<?php echo STATIC_URL; ?>images/Facebook.png"></span></label>
-	    <div class="col-sm-7">
-			<input type="text" class="form-control" placeholder="http://facebook.com/username" name="data[<?php echo PLUGIN_NAME_VAR; ?>][url_facebook]" value="<?php echo $data[PLUGIN_NAME_VAR]['url_facebook'];?>">
-		</div>
-	</div>
-
-	<div class="form-group">
-		<label for="BackgroundBar" class="col-sm-3 control-label icon-label"><span><img width="32" height="32" src="<?php echo STATIC_URL; ?>images/Google.png"></span></label>
-	    <div class="col-sm-7">
-			<input type="text" class="form-control" placeholder="https://plus.google.com/username" name="data[<?php echo PLUGIN_NAME_VAR; ?>][url_googleplus]" value="<?php echo $data[PLUGIN_NAME_VAR]['url_googleplus'];?>">
-		</div>
-	</div>
-
-	<div class="form-group">
-		<label for="BackgroundBar" class="col-sm-3 control-label icon-label"><span><img width="32" height="32" src="<?php echo STATIC_URL; ?>images/Pinterest.png"></span></label>
-	    <div class="col-sm-7">
-			<input type="text" class="form-control" placeholder="https://pinterest.com/username" name="data[<?php echo PLUGIN_NAME_VAR; ?>][url_pinterest]" value="<?php echo $data[PLUGIN_NAME_VAR]['url_pinterest'];?>">
-		</div>
-	</div>
-
-	<div class="form-group">
 		<label for="BackgroundBar" class="col-sm-3 control-label">Activate Social Bar</label>
 		<div class="col-sm-7">
 		<div id="active-switch" class="make-switch" data-on="success" data-off="warning">
